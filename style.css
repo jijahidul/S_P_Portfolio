@@ -1,0 +1,173 @@
+*{
+    scroll-behavior: smooth;
+
+}
+
+.menu ul li{
+    display: inline-block;
+    color: #D6FFFA;
+    font-family: 'Bebas Neue', cursive;
+    border-bottom: 2px solid #00B0F0; 
+    padding-right:2px; 
+    margin-left: 45px;
+    font-size: 22px;
+    }
+
+.menu ul{
+    text-align: center;
+}
+.header{
+    margin-top: -10px;
+    position: fixed;
+    width:100%;
+    align-content: center;
+    background-color: #23384E;
+    border: 3px solid black;
+    border-radius: 13px;
+}
+.home_me img{
+    padding:20px 60px;
+    float: left;
+    height: 500px;
+    width:500px;
+    border-radius: 50%;
+    border-right: 3px solid black;
+    padding-bottom: 20px;
+}
+.intro{
+    margin-top:250px;
+    padding-left: 25px;
+    margin-right: 80px;
+    width:500px;
+    float: right;
+    }
+.home{
+    padding-bottom: 50px;
+    width:102%;
+    padding-top:100px;
+    float:left;
+    background-image:linear-gradient(rgba(163, 7, 31, 0.9),rgba(128, 42, 68, 0.9)),url("../image/bg-2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    }
+.intro{
+    font-size: 20px;
+    font-family: 'Fredoka One', cursive;
+}
+
+.about{
+    background-image:linear-gradient(rgba(34, 3, 8, 0.9),rgba(242, 131, 1, 0.9)),url("../image/bg-1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 101%;
+    float: left;
+    display: block;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+     
+}
+
+h1{
+    font-family: 'Fredoka One', cursive;
+    font-size: 40px;
+}
+.cs{
+    font-family: 'Fredoka One', cursive;
+    font-size: 20px;
+    
+}
+.c{
+    font-size: 25px;
+}
+.uni{
+    font-size: 28px;
+    font-weight: 400;
+}
+
+h3{
+    font-family: 'Fredoka One', cursive;
+    font-size: 26px;
+}
+
+.education{
+    float: left;
+    display: block;
+    width: 100%;
+    padding-top: 10px;
+    background-image:linear-gradient(rgba(191, 2, 33, 0.9),rgba(145, 10, 26, 0.9)),url("../image/bg-3.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+   
+}
+
+.education{
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    font-size: 30px;
+}
+.study{
+    padding-right: 10px;
+    color: aquamarine;
+    font-family: 'Fredoka One', cursive;
+    font-size: 30px;
+}
+.skills{
+    background-image:linear-gradient(rgba(255, 6, 46, 0.9),rgba(211, 7, 62, 0.9)),url("../image/bg-4.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 150px;
+    float:left;
+    width: 100%;
+    height:460px;
+}
+
+svg.radial-progress.web circle{
+    stroke-width: 5;
+    stroke: #30bae7;
+}
+svg.radial-progress.js circle{
+    stroke-width: 5;
+    stroke: #C878F3;
+}
+svg.radial-progress.gd circle{
+    stroke-width: 5;
+    stroke: #EC93F3;
+}
+svg.radial-progress.php circle{
+    stroke-width: 5;
+    stroke: #93F39B
+}
+
+svg.radial-progress text{
+    font-family: 'Acme', sans-serif;
+
+    fill: #3c4761;
+    font-size: 20px;
+}
+.web-section .php-section .js-section .graphics-section{
+    display: inline-block;
+    width: 25%;
+}
+.column{
+  float: left;
+  width: 23%;
+  padding: 10px;
+  height: 300px;
+}
+.skill-section{
+  padding-left: 5px;
+  content: "";
+  display: table;
+  clear: both;
+}
